@@ -20,7 +20,10 @@ app.set('view engine', 'handlebars');
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Body Parser Middleware
+app.use(express.urlencoded({extended: true}));
 app.use(bodyParser.urlencoded({ extended: true }));
+
+
 app.use(bodyParser.json());
 
 app.use(require('./routes/home'));
