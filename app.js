@@ -1,8 +1,9 @@
 const express = require('express');
+const PORT = process.env.PORT || 3000;
+
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
-const PORT = process.env.PORT || 3000;
 
 
 const app = express();
