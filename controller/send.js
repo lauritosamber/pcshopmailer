@@ -22,7 +22,7 @@ exports.postSend = (req, res) => {
       secure: false, // true for 465, false for other ports
       auth: {
           user: 'lauritosamber@gmail.com', // generated ethereal user
-          pass: 'Myloves061617'  // generated ethereal password
+          pass: ''  // generated ethereal password
       },
       tls:{
         rejectUnauthorized:false
