@@ -1,2 +1,2 @@
 # pcshopmailer
-PC SHOP MAILER OR NODEJS MAILER
+Roniel Mailer and PC Shop Mailer
